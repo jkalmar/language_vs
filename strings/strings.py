@@ -16,7 +16,7 @@ def main():
     concat = hello + world
     print(concat)
 
-    # space can be added easyli
+    # space can be added easily
     print(hello + " " + world)
 
     # or a little differently

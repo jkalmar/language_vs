@@ -21,7 +21,7 @@ class Numbers
         // but not that nice like in python
         BigInteger big = new BigInteger( "10000000000000000000000000000000000000000000000000000000000000000000000000000000000" );
 
-        // it can even print it easyli
+        // it can even print it easily
         System.out.println( "Big: " + big );
         System.out.println( big.getClass().getName() );
         System.out.println( Math.pow( 2, 64) );

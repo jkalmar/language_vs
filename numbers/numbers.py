@@ -7,7 +7,7 @@ def main():
     # Python does not have types so definition of a variable is simple assigment
     intnum = 10
 
-    # We can easyli print those vars and its internal type ( remember python is dynamic language, but it
+    # We can easily print those vars and its internal type ( remember python is dynamic language, but it
     # does not mean it does not support types )
     print("Decimal number: %d" % intnum)
     print("Type of: %s" % type(intnum))

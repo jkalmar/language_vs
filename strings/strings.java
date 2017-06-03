@@ -25,7 +25,7 @@ class StringSample
         System.out.println( hello );
         System.out.println( world );
 
-        // Strings can be easyli merged
+        // Strings can be easily merged
         System.out.println( hello + world );
 
         // String can be stored into a variable

@@ -71,7 +71,7 @@ int main(int argc, char** argv)
     // adding some number to maximum number result in overflow
     std::cout << "big + integer: " << big + integer << std::endl;
 
-    // simple math is done easyli
+    // simple math is done easily
     std::cout << integer + decimal << std::endl;
     std::cout << integer - decimal << std::endl;
     std::cout << integer * decimal << std::endl;

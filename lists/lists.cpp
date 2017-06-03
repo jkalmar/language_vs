@@ -50,7 +50,7 @@ int main( int argc, char** argv )
 {
     // definition of a list
     // in c++ every variable has to have a type
-    // as a result of this, we can not easyli ( easyli is a key here!!! ) store
+    // as a result of this, we can not easily ( easily is a key here!!! ) store
     // elements of different types into a single list, which kind of sucks
     // also the nice curly brackets initialization of a list is only possible from C++11
     std::list<int> li1 = { 1,2,3,4,5 };

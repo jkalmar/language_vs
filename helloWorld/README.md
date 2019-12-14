@@ -1,4 +1,4 @@
-This is a kotlin example.
+kotlin example.
 ========================  
 Kotlin is a language that can use rich Java library ecosystem but at the same time
 provides a less verbose syntax.

@@ -5,6 +5,7 @@ Currently:
 ----------
 - python
 - java
+- kotlin
 - c++
 
 How to use it:
@@ -21,6 +22,7 @@ I write this under linux currently openSUSE Tumbleweed and using:
 - python 3
 - gcc7 or clang4
 - java 8 (openjdk)
+- kotlin 1.3
 
 Requesting a comparison:
 ------------------------

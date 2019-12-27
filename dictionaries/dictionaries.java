@@ -1,19 +1,13 @@
 import java.lang.System;
 import java.lang.String;
-
-import java.util.Hashtable;
-import java.util.Dictionary;
 import java.util.HashMap;
-
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 class Dictionaries
 {
     public static void main(String[] args) {
         // In java everything needs to have its type so we need to say that we want a HashMap and then
         // create one using the new operator
-        // Java can infer the type if we do not put anything into the map    
+        // Java can infer the type if we do not put anything into the map
         HashMap<String, String> di1 = new HashMap<>();
 
         // in java the HashMap can not be directly initialized
@@ -64,8 +58,8 @@ class Dictionaries
         HashMap< String, Integer > di7 = new HashMap<>();
         di4.entrySet().stream().forEach( e -> di7.put( e.getValue(), e.getKey() ) );
 
-        // printing of the swapped dictionary di7 key is string and value is a number but in the 
+        // printing of the swapped dictionary di7 key is string and value is a number but in the
         // original di4 the key is a number and value is a string
         System.out.println( "swapped keys <-> values in di7: " + di7 );
     }
-} 
+}
